@@ -1,0 +1,45 @@
+
+
+.title, .subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer-element span, #timer-element p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer-element span {
+    font-size: 3rem;
+}
+
+#timer-element p {
+    font-size: 1.5rem;
+}
+
+#button-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+

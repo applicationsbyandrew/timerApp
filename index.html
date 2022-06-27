@@ -11,23 +11,44 @@
 </head>
 <body>
     <section class="section">
-        <div class="container">
+        <div class="container" id="heading">
             <h1 class="title">Timer Application</h1>
             <p class="subtitle">A simple, elegant timer application.</p>
         </div>
     </section>
     <section class="section">
-        <div class="container" id="timer">
-            <span id="timer-days">0</span>
-            <span id="timer-hours">0</span>
-            <span id="timer-minutes">0</span>
-            <span id="timer-seconds">0</span>
+        <div class="container" id="timer-display">
+           <container class="container" id="timer-element">
+                <container class="container" id="display-days">
+                    <span id="timer-days">0</span>
+                    <p class="subtitle">Days</p>
+                </container>
+           </container>
+           <container class="container" id="timer-element">
+                <container class="container" id="display-hours">
+                    <span id="timer-days">0</span>
+                    <p class="subtitle">Hours</p>
+                </container>
+            </container>
+            <container class="container" id="timer-element">
+                <container class="container" id="display-minutes">
+                    <span id="timer-days">0</span>
+                    <p class="subtitle">Minutes</p>
+                </container>
+            </container>
+            <container class="container" id="timer-element">
+                <container class="container" id="display-seconds">
+                    <span id="timer-days">0</span>
+                    <p class="subtitle">Seconds</p>
+                </container>
+            </container>
         </div>
     </section>
     <section class="section">
-        <div class="container" id="button-container">
-            <button class="button is-primary is-medium">Start Timer</button>
-            <button class="button is-warning is-medium">Stop Timer</button>
+        <div class="container" id="button-panel">
+            <div class="container" id="toggle">
+                <button class="button is-primary is-medium m-0">Start Timer</button>
+            </div>
         </div>
     </section>
 </body>
